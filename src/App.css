@@ -1,0 +1,35 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  gap:2vw;
+  align-items: center;
+  justify-content: center;
+  padding:5vw;
+}
+
+.container > div{
+  width:25vw;
+  border-bottom:1px solid black;
+}
+
+input{
+  width:100%;
+  padding:1vw;
+  outline: none;
+  border:none;
+}
+
+.btn{
+  width:8vw;
+  padding:20px;
+  background-color: black;
+  color:white;
+}
+
+#details{
+  padding:3vw 10vw;
+}
+
+.element{
+  width:100%;
+}
