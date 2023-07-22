@@ -14,7 +14,8 @@ function Data() {
     }
 
     useEffect(()=>{
-        fetchData();
+       if(localStorage.getItem('currUser')) fetchData();
+       else navigate('/');
     },[])
 
     let handleLogout = () =>{

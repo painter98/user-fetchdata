@@ -9,11 +9,7 @@ function App() {
     <div className="App">
      <Routes>
       <Route path='/' element={<Register/>}/>
-      {
-        localStorage.getItem('currUser')?
-         <Route path='/data' element={<Data/>}/>
-         :''
-      }
+      <Route path='/data' element={<Data/>}/>
      </Routes>
     </div>
   );
